@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>02d4daa6-1d33-4e7b-bd9d-4709d025712b</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,5 +12,8 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="2.12.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
 </Project>
